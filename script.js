@@ -19,7 +19,6 @@ dialogFormEl.addEventListener('submit', function () {
   gamePlayEl.classList.remove('opacity-0', '-translate-y-[10%]');
   playerOneName = playerOneInpEl.value || 'Player1';
   playerTwoName = playerTwoInpEl.value || 'Player2';
-  console.log(playerOneName, playerTwoName);
 
   // Build (define) the game board
   const gameBoard = {
